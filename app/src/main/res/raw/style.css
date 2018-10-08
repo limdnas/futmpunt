@@ -1,0 +1,199 @@
+body {
+    background-color: rgb(32, 32, 32);
+    background-image: linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,0) 20%, rgba(0,0,0,0) 80%, rgba(0,0,0,1)), linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%, black), linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%, black), linear-gradient(to bottom, rgb(8, 8, 8), rgb(32, 32, 32));
+    background-size: 100% 100%, 10px 10px, 10px 10px, 10px 5px;
+    background-position: 0px 0px, 0px 0px, 5px 5px, 0px 0px;
+
+    font-family: arial;
+    overflow-x: hidden;
+}
+
+.puntos.inside_tab.selected.modo-picas.loaded.futmondo-mixto {
+    display: block;
+    margin-top: 20px;
+
+}
+
+td {
+    background-color: #a8bf82;
+}
+thead.header {
+    background-color: #a8bf82;
+}
+th.events {
+    color: #a8bf82;
+}
+
+
+
+tr.plegable.plegado {
+    background-color: #e2e2e2;
+    border-bottom: 5px;
+    border-bottom-style: groove;
+}
+
+.clubs {
+    display: none;
+}
+
+#main_header {
+    display: none;
+    }
+
+
+body:not(.ejem) #main_wrapper .apoyos {
+    display: none;
+
+}
+
+
+#main_wrapper {
+    background-color: rgb(32, 32, 32);
+       background-image: linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,0) 20%, rgba(0,0,0,0) 80%, rgba(0,0,0,1)), linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%, black), linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%, black), linear-gradient(to bottom, rgb(8, 8, 8), rgb(32, 32, 32));
+       background-size: 100% 100%, 10px 10px, 10px 10px, 10px 5px;
+       background-position: 0px 0px, 0px 0px, 5px 5px, 0px 0px;
+    top: 0px;
+}
+
+.filtro.form {
+
+    display: none;
+}
+
+.mod > .title, .main.title, .jugador_principal .title {
+
+    display: none;
+}
+.js_game {
+    display: none;
+
+}
+
+.subtab.selected {
+    background-color: rgba(123, 188, 16, 0.60);
+}
+.subtab {
+    display: table-cell;
+    vertical-align: middle;
+    float: left;
+    width: 50%;
+    text-align: center;
+    font-size: 25px;
+    box-sizing: border-box;
+
+    color: #ffffff;
+    height: 60px;
+    /* background-color: rgba(255,255,255,0.6); */
+}
+
+.fichapartido .encabezado {
+       display: none;
+}
+
+body.app #main_footer {
+    display: none;
+}
+
+#main_footer {
+    background-color: #000;
+    color: #FFF;
+    display: none;
+}
+
+table.footable-details > tbody > tr > td.block a, .desglose .link {
+       display: none;
+}
+
+.tablestats .name.Portero {
+    border-left: 20px solid #296293;
+    border-left-width: 25px;
+    border-left-style: solid;
+    border-left-color: rgb(41, 98, 147);
+    background-color: rgba(41, 98, 147, 0.40);
+        border-bottom: 2px solid;
+}
+
+.tablestats .name.Defensa {
+    border-left: 4px solid #756547;
+    border-left-width: 25px;
+    border-left-style: solid;
+    border-left-color: rgb(117, 101, 71);
+    background: rgba(117, 101, 71, 0.40);
+    border-bottom: 2px solid;
+}
+
+.tablestats .name.Mediocampista {
+    border-left: 4px solid #ef8c00;
+    border-left-width: 25px;
+    border-left-style: solid;
+    border-left-color: rgb(239, 140, 0);
+    background-color: rgba(239, 140, 0, 0.40);
+    border-bottom: 2px solid;
+}
+
+.tablestats .name.Delantero {
+    border-left: 4px solid #ff2222;
+    border-left-width: 25px;
+    border-left-style: solid;
+    border-left-color: rgb(255, 34, 34);
+    background-color: rgba(255, 34, 34, 0.40);
+    border-bottom: 2px solid;
+}
+
+h2 {
+       display: none;
+}
+
+.cronista_principal .tablestats td.name, .cronistas_wrapper .tablestats td.name, .convocados .conv .jugador, .comparador .link, .condesplegable .name, .footable .name .link, .related-link, .balonparado .jugadorbloque, .cronista .link, .lesionado .datos .jugador, .sancionado .datos .jugador, .nodisponible .datos .jugador, .apercibidos .jugador, .bp .jugador {
+    display: inline-block;
+    color: #1b0000;
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+    padding: 6px 0;
+    margin: 5px 0;
+    font-size: 20px;
+    text-align: center;
+}
+
+.plegado .fa, .desplegado .fa {
+    display: none;
+}
+
+
+.point.scale0 {
+    color: #DF0101;
+}
+
+.point.scale1 {
+    color: #ff5722;
+}
+
+.point.scale2 {
+    color: #4caf50;
+}
+
+.point.scale3 {
+    color: #009688;
+}
+
+.point.scale4 {
+    color: #673ab7;
+}
+.point.scale5 {
+    color: #dfff66;
+}
+
+.tablestats .desglose .estadistica {
+    padding: 2px 10px;
+    background-color: #FFEB3B;
+}
+.puntos .tablestats td.data:last-child {
+    text-align: right;
+    padding-right: 2px;
+    font-size: 20px;
+}
+.mod > .title, .main.title, .jugador_principal .title {
+    display:none;
+}
